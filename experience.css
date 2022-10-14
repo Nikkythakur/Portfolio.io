@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(175, 175, 175);
+    overflow: hidden;
+}
+
+.topnav{
+    padding: 20px 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    opacity: 0.989;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+    color: white;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.bgimg{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    justify-content: right;
+    border-radius: 30px;
+}
+
+.exper h1{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 310px;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+.exper img{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.card-1 p{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    background-color: rgb(126, 125, 125);
+    color: white;
+    width: 29%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.989;
+    font-family: Helvetica;
+    font-size: 15px;
+    z-index: 9;
+    box-shadow: 0 4px 8px 0 rgba(1,1,1,1);
+}
+
+.card-2 p{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    background-color: rgb(126, 125, 125);
+    color: white;
+    width: 29%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.989;
+    font-family: Helvetica;
+    font-size: 15px;
+    z-index: 9;
+    box-shadow: 0 4px 8px 0 rgba(1,1,1,1);
+}
+
+.card-3 p{
+    display: flex;
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    background-color: rgb(126, 125, 125);
+    color: white;
+    width: 29%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.989;
+    font-family: Helvetica;
+    font-size: 15px;
+    z-index: 9;
+    box-shadow: 0 4px 8px 0 rgba(1,1,1,1);
+}
+
+.card-4 p{
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    background-color: rgb(126, 125, 125);
+    color: white;
+    width: 29%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.989;
+    font-family: Helvetica;
+    font-size: 15px;
+    z-index: 9;
+    box-shadow: 0 4px 8px 0 rgba(1,1,1,1);
+}

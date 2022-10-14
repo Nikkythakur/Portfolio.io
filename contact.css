@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(175, 175, 175);
+    overflow: hidden;
+}
+
+.topnav{
+    padding: 20px 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    opacity: 0.989;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+    color: white;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.card {
+    display: flexbox;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    height: 500px;
+    width: 550px;
+    background-color: rgb(175 175 175);
+    box-shadow: 0 4px 8px 0 rgba(1,1,1,1);
+    transition: 0.3s;
+    z-index: 1;
+    border-radius: 40px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,1);
+}
+
+h4{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 290px;
+    font-size: 40px;
+    color: rgb(83, 82, 82);
+    font-family: Helvetica;
+    text-align: center;
+    padding: 20px 20px;
+    z-index: 2;
+}
+
+h4{
+    background-color: rgb(175 175 175);
+    text-decoration: none;
+}
+  
+.bgimg{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    justify-content: right;
+    border-radius: 30px;
+}
+
+.git img{
+    display: flexbox;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 230px;
+    left: 220px;
+    z-index: 9;
+}
+
+.insta img{
+    display: flexbox;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 300px;
+    left: 220px;
+    z-index: 9;
+}
+
+.face img{
+    display: flexbox;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 370px;
+    left: 220px;
+    z-index: 9;
+}
+
+.link img{
+    display: flexbox;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 430px;
+    left: 220px;
+    z-index: 9;
+}
+
+.gmail img{
+    display: flexbox;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 500px;
+    left: 220px;
+    z-index: 9;
+}
+
+.git p{
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 300px;
+    z-index: 9;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.insta p{
+    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 300px;
+    z-index: 9;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.face p{
+    display: flex;
+    position: absolute;
+    top: 355px;
+    left: 300px;
+    z-index: 9;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.link p{
+    display: flex;
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    z-index: 9;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.gmail p{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 300px;
+    z-index: 9;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+}
