@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(175, 175, 175);
+}
+
+.topnav{
+    padding: 20px 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    opacity: 0.989;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+    color: white;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.list{
+    color: white;
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: 130%;
+    font-family: Helvetica;
+}
+
+.container {
+    width: 30%; 
+    background-color: #ddd; 
+    border-radius: 20px;
+    font-family: Helvetica;
+    box-shadow: 2px 2px 2px 2px rgb(97, 96, 96);
+    z-index: 2;
+}
+
+.skills {
+    text-align: left; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: rgb(180, 178, 178); 
+    font-family: Helvetica;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.html {width: 90%; background-color: rgb(80, 79, 79);}
+.css {width: 90%; background-color: rgb(80, 79, 79);} 
+.js {width: 60%; background-color: rgb(80, 79, 79);} 
+.reactjs {width: 70%; background-color: rgb(80, 79, 79);} 
+.nodejs {width: 50%; background-color: rgb(80, 79, 79);}
+.python {width: 20%; background-color: rgb(80, 79, 79);}
+
+.bgimg img{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    justify-content: right;
+    border-radius: 30px;
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(175, 175, 175);
+    overflow: hidden;
+}
+
+.topnav{
+    padding: 20px 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    opacity: 0.989;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+    color: white;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.bgimg{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    justify-content: right;
+    border-radius: 30px;
+}
+
+.content p{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 25px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.content h1{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    color: rgb(241, 237, 237);
+    border-color: white;
+    font-size: 60px;
+    font-family: Helvetica;
+}
+
+.content h2{
+    display: flex;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+.para p{
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    font-size: 17px;
+    font-weight: lighter;
+    color: white;
+    font-family: Helvetica;
+}
+
+.butt a{
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 100px;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 15px 15px;
+    z-index: 9;
+}
+
+.butt a{
+    border-style: solid;
+    border-color: rgb(236, 234, 234);
+}
